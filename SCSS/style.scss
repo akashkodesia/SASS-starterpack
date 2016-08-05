@@ -1,0 +1,24 @@
+@import url(../fonts/stylesheet.css);
+@import '_varibales.scss';
+@import '_mixins.scss';
+/*@import '_normalize.scss';*/
+@import '_base.scss';
+
+@import 'modules/_btnsNicons.scss';             // Btn Colors, Hover and Icons
+@import 'modules/_header.scss';
+@import 'modules/_navigation.scss';
+@import 'modules/_login.scss';
+@import 'modules/_maincontent.scss';
+@import 'modules/_footer.scss';
+@import 'modules/_dashboard.scss';              // Dashboard
+@import "modules/_gridViewPagination.scss";     // Grid View Pagination
+@import "modules/_gridView.scss";               // Grid View
+@import "modules/_popups.scss";                 // PopUps
+@import "modules/_mojoTabedMenu.scss";          // Tabeb Menu Mojo
+@import "modules/_searchPanel.scss";            // Search Panel
+@import "modules/_progress-bars-lables.scss";   // Progress Bars and Labels
+@import "modules/_processing.scss";             // Processing
+@import "modules/_swapBooking.scss";            // SWAP Pages CSS
+@import "modules/_infoMsg.scss";                // CSS for Warning, info and Sucess Mesage
+@import "modules/_customerDashboard.scss";      // Cusotmer Dashboard
+@import 'modules/_temp.scss';                   // Temp - Remove after final theme

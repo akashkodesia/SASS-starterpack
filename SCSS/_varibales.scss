@@ -1,0 +1,51 @@
+//----------------------------------- Master Theme Settings -------------------------------------//
+
+$font: 'Roboto', sans-serif;                                              // Global Font Declaration 
+
+$color-array:(
+            black:#4e4e4e,                                   
+            blue:#0099cc,
+            dark-blue:#14394e,
+            green:#2ebc78,
+            white:#ffffff,
+            orange:#ed6a0e,
+            yellow:#f39c12,
+            grey:#efefef,
+            pink:#de6075,
+            red:#df543d
+        );
+
+$black: map-get($color-array, black);                                   // Color Declataion Starts
+$white: map-get($color-array, white);
+
+$transition:all .2s ease;                                               // Global Link and hover transition timing
+
+$rounded_edge_button:true;                                               // Enable rounded edges
+$round_edge_radius:2px;                                                  // Define Radius Here
+
+$card-radius: 2px;                                                       // Card Radius
+
+//------------------------------------- Theme Specific Settings -----------------------------//
+
+$color-p:map-get($color-array, blue);                                    // Primary theme color delcation
+$color-s:map-get($color-array, dark-blue);                               // Secondory theme color delcation
+$color-t:map-get($color-array, red);                                     // Tertiary theme color delcation
+$color-f:map-get($color-array, green);                                   // Forth theme color delcation
+
+$btn-forward:map-get($color-array, blue);                                // Positive action button Color
+$btn-forward-hvr:darken($btn-forward, 10);                               // Positive action button Color Hover
+
+$btn-backward:$black;                                                    // Negative action button Color
+$btn-backward-hvr:darken($btn-backward, 10);                             // Negative action button Color Hover
+
+
+$forwardBtnGradientTop:#22b7e8;                                          // Forward Button gradient Top
+$forwardBtnGradientBottom:#029bce;                                       // Forward Button gradient Bottom
+$greyBtnGradientTop:#eeeeee;                                             // Gery Button gradient Top
+$greyBtnGradientBottom:#d1d1d1;                                          // Gery Button gradient Bottom
+
+$side_nav_width:230px;                                                   // Side nav and logo coantiner width
+$main_header_height:68px;                                                // Header Heigh Settings used as min-height in header and side nav margin-top
+
+$popup_window_bg_color: rgba(0,0,0,.80);
+
